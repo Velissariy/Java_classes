@@ -1,4 +1,22 @@
 public class RBTRee {
+    public static void main(String[] args) {
+
+        RBTRee tree = new RBTRee();
+
+    tree.put(1, 10);
+    tree.put(2, 20);
+    tree.put(3, 30);
+    tree.put(4, 40);
+    tree.put(5, 50);
+
+    // Вывод дерева в консоль
+        System.out.println(tree.root.key); // 2
+        System.out.println(tree.root.left.key); // 1
+        System.out.println(tree.root.right.key); // 4
+        System.out.println(tree.root.right.left.key); // 3
+        System.out.println(tree.root.right.right.key); // 5
+
+    }
 
 
         private static final boolean RED = true;
@@ -66,19 +84,5 @@ public class RBTRee {
 
             return h;
         }
-    }
+}
 
-//    RBTRee tree = new RBTRee();
-//
-//    tree.put(1, 10);
-//    tree.put(2, 20);
-//    tree.put(3, 30);
-//    tree.put(4, 40);
-//    tree.put(5, 50);
-//
-//    // Вывод дерева в консоль
-//        System.out.println(tree.root.key); // 2
-//        System.out.println(tree.root.left.key); // 1
-//        System.out.println(tree.root.right.key); // 4
-//        System.out.println(tree.root.right.left.key); // 3
-//        System.out.println(tree.root.right.right.key); // 5
