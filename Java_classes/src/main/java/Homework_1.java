@@ -1,8 +1,6 @@
 import java.util.ArrayList;
 import java.util.Random;
 
-public class Homework_1 {
-
 //Задание
 //        Первый семинар.
 //        1. Выбросить случайное целое число в диапазоне от 0 до 2000 и сохранить в i
@@ -12,6 +10,8 @@ public class Homework_1 {
 //        Пункты реализовать в методе main
 //                *Пункты реализовать в разных методах
 //        int i = new Random().nextInt(k); //это кидалка случайных чисел!)
+
+public class Homework_1 {
         public static void main(String[] args){
 
             int i = new Random().nextInt(2000); // Случайное целое число в диапазоне от 0 до 2000

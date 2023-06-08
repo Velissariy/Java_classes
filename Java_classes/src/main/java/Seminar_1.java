@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Seminar_01 {
+public class Seminar_1 {
     public static void main(String[] args){
 //        int i = 6; //32 bit целое
 //        long l; //64bit целое
@@ -64,6 +64,7 @@ public class Seminar_01 {
         }
     }
 }
+
 
 
 
