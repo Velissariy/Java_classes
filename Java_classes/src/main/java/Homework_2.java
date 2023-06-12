@@ -21,8 +21,6 @@ import java.util.*;
 //
 // *Сравнить время выполнения замены символа "а" на "А" любой строки содержащей >1000 символов средствами String и StringBuilder.
 
-import java.util.Scanner;
-
 public class Homework_2 {
     public static void main(String[] args) {
         String query = "select * from students where ";
