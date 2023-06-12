@@ -1,5 +1,5 @@
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
+
 
 //Задание
 // Дана строка sql-запроса "select * from students where ".
