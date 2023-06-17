@@ -15,6 +15,8 @@ public class Homework_3 {
         numbers.add(new Random().nextInt(1000));
         numbers.add(new Random().nextInt(1000));
 
+        System.out.println("Список чисел: " + numbers);
+
         numbers.removeIf(n -> n % 2 == 0); // Удаление четных чисел
 
         int min = numbers.stream().mapToInt(Integer::intValue).min().orElse(0); // Нахождение минимального значения
