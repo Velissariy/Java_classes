@@ -11,9 +11,9 @@ public class Homework_5 {
 
         // Добавление контактов в телефонную книгу
         addContact(phoneBook, "Jonhy", "+79992223344");
-        addContact(phoneBook, "Друг Ноггано", "+79994455662");
+        addContact(phoneBook, "Bobby", "+79994455662");
         addContact(phoneBook, "Bobby", "+79994465742");
-        addContact(phoneBook, "Света", "+79994477799");
+        addContact(phoneBook, "Jonhy", "+79994477799");
         addContact(phoneBook, "Антон", "+79955566771");
 
         // Вывод телефонной книги в порядке убывания числа телефонов
