@@ -4,13 +4,13 @@ import java.util.*;
 //        разными телефонами, их необходимо считать, как одного человека с разными телефонами.
 //        Вывод должен быть отсортирован по убыванию числа телефонов.
 
-
 public class Homework_5 {
     public static void main(String[] args) {
         Map<String, List<String>> phoneBook = new HashMap<>();
 
         // Добавление контактов в телефонную книгу
         addContact(phoneBook, "Jonhy", "+79992223344");
+        addContact(phoneBook, "Jonhy", "+79992211111");
         addContact(phoneBook, "Bobby", "+79994455662");
         addContact(phoneBook, "Bobby", "+79994465742");
         addContact(phoneBook, "Jonhy", "+79994477799");
@@ -35,7 +35,7 @@ public class Homework_5 {
         // Создание списка записей из телефонной книги
         List<Map.Entry<String, List<String>>> entries = new ArrayList<>(phoneBook.entrySet());
 
-        // Сортировка списка записей по убыванию числа телефонов
+
         entries.sort((e1, e2) -> Integer.compare(e2.getValue().size(), e1.getValue().size()));
 
         // Вывод телефонной книги
